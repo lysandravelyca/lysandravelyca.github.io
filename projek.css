@@ -1,0 +1,140 @@
+
+.projek h1{
+    
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 6rem;
+    font-weight: 100;
+    color: #C89942;
+    margin-top: 6%;
+    margin-left: 10vw;
+}
+
+.projek p{
+
+    font-family:"Playfair Display", Georgia, serif;
+    font-size: 2rem;
+    font-weight:lighter;
+    color: #1e1e1e;
+    margin-left: 37vw;
+    margin-top: -3vh;
+
+}
+
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 20px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.box {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px #C89942(0,0,0,0.9);
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay {
+	width: 100%;
+	height: 0;
+	background: linear-gradient(transparent,#CCBFB6 88%);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+	padding: 0px 220px;
+    /* padding-bottom: 100px; */
+    /* padding-left: 50px;
+    padding-right: 50px;  */
+	text-align: center;
+	font-size: 14px;
+	transition: height 0.5s;
+}
+.overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.overlay a {
+    font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 12px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.box:hover img{
+    transform: scale(1.1);
+}
+.box:hover .overlay{
+    height: 100%;
+}
+
+.text{
+
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: 8rem; */
+    /* margin-bottom: 8rem; */
+    /* gap: 2vw; */
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* gap: 4vw; */
+    /* padding: 0px 50px; */
+   margin-left: 2rem;
+    margin-bottom: 10vh;
+}
+
+.text{
+
+    gap: 10vw;
+}
+
+.eramen {
+
+    /* display: flex; */
+    align-items: center;
+    color: #000000;
+    width: 70%; 
+    font-size: .90rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 9vw;
+
+}
+
+.berbisik{
+
+    color: #000000;
+    width: 70%; 
+    font-size: .90rem;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 15vw;
+}
+
+
+
